@@ -31,20 +31,16 @@ To write a Python program that sorts a dictionary's:
 
 ## 🧪Program
 ```
-d = {'banana': 'yellow', 'apple': 'red', 'grape': 'green'}
-
-print("Original Dictionary:", d)
-
-sorted_keys = dict(sorted(d.items()))
-print("Sorted by Keys:", sorted_keys)
-
-sorted_values = dict(sorted(d.items(), key=lambda item: item[1]))
-print("Sorted by Values:", sorted_values)
+data=eval(input())
+sort=dict(sorted(data.items()))
+print("Keys and Values sorted in alphabetical order by the key")
+for key, value in sort.items():
+    print(f"({key}, {value}) ",end="")
 ```
-## Sample Output:
-<img width="809" height="279" alt="image" src="https://github.com/user-attachments/assets/0c49cdb9-2aaa-4751-bffb-db1670d0175d" />
 
+## Sample Output
 
-## Result:
-Thus, the Python program to sort a dictionary by keys and values in alphabetical order was executed successfully.
+<img width="816" height="70" alt="518001880-e9a9e4e5-9b72-451b-a090-5df51d91358d" src="https://github.com/user-attachments/assets/615c731c-b18e-4110-b09b-0f941e1ec2e1" />
 
+## Result
+Thus the program executed successfully.
